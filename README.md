@@ -37,20 +37,10 @@ This forms a resilient, peer-to-peer network where every device is both autonomo
 
 ## 📦 Installation
 
-Download and extract the repository:
+Download and extract the Xenia.zip file and run this comand in the directory where you have the file
 
 ```bash
-git clone https://github.com/your-username/Xenia.git
-cd Xenia
-python3 main.py
-```
-
-Or if you have the ZIP file:
-
-```bash
-unzip Xenia.zip
-cd Xenia
-python3 main.py
+ export TK_SILENCE_DEPRECATION=1 && python3 chat_app.py
 ```
 
 ## 📚 Documentation
