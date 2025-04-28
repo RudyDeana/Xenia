@@ -2,55 +2,64 @@
 
 **Xenia** is a revolutionary project that merges server and client into a single application, creating a new, decentralized way of communicating and exchanging data.
 
-Built in Python, Xenia is designed to function without relying on any external servers, enabling direct peer-to-peer interactions.
+Built entirely in Python, Xenia enables direct peer-to-peer interactions without the need for external servers.
 
 ## ✨ Features
 
 - **Server and Client in One**  
-  Every instance of Xenia acts both as a server and a client at the same time.
+  Every instance of Xenia acts simultaneously as a server and a client.
 
 - **Direct Communication**  
-  Send and receive data directly without middlemen.
+  Devices communicate directly, without intermediaries.
 
 - **Decentralized Architecture**  
-  No central authority or hosting services required.
+  No central server or third-party services required.
 
 - **Lightweight and Portable**  
-  Easy to run on laptops, PCs, Raspberry Pi, or even microdevices.
+  Runs on laptops, PCs, Raspberry Pi, or similar hardware.
 
 - **Python Powered**  
-  Simple to set up, modify, and extend for your own custom needs.
+  Easy to set up, extend, and modify.
 
 ## 🚀 How It Works
 
-Xenia instances establish direct communication links with each other, forming a decentralized, self-sufficient network.  
-Each device can simultaneously:
+Each Xenia node can:
 
 - Accept incoming connections (server mode)
-- Initiate outgoing connections (client mode)
+- Connect to other devices (client mode)
 
-This architecture removes the need for third-party servers or services, making the network resilient, private, and independent.
+This forms a resilient, peer-to-peer network where every device is both autonomous and interconnected.
 
 ## 🛠 Requirements
 
 - Python 3.8 or higher
-- Basic networking permissions (open ports if needed)
+- Basic network permissions (open ports if necessary)
 
 ## 📦 Installation
 
+Download and extract the repository:
+
 ```bash
-git clone https://github.com/your-username/xenia.git
-cd xenia
+git clone https://github.com/your-username/Xenia.git
+cd Xenia
+python3 main.py
+```
+
+Or if you have the ZIP file:
+
+```bash
+unzip Xenia.zip
+cd Xenia
 python3 main.py
 ```
 
 ## 📚 Documentation
 
-Detailed technical documentation and developer guides will be provided soon.
+Detailed documentation and developer guides will be available soon.
 
 ## 🧠 Inspiration
 
-Xenia is inspired by the vision of creating a more independent, resilient, and private way of communication — redefining what it means to be "online".
+Xenia is designed to redefine how communication happens — creating direct, resilient, and serverless networks.
 
 ## 📜 License
 
